@@ -1,38 +1,38 @@
-/* Adjustments for mobile responsiveness */
+
 @media (max-width: 768px) {
 	.login_container {
-		 width: 90%; /* Make container take up less space on smaller screens */
-		 min-height: auto; /* Adjust height based on content */
+		 width: 90%; 
+		 min-height: auto; 
 	 }
  
 	.login_form_container {
-		 width: 95%; /* Adjust width for better fit on small screens */
-		 height: auto; /* Adjust height based on content */
+		 width: 95%;
+		 height: auto; 
 	 }
  
 	.left,.right {
-		 flex: 1; /* Equalize left and right sections on smaller screens */
-		 padding: 10px; /* Add some padding inside sections for spacing */
+		 flex: 1; 
+		 padding: 10px; 
 	 }
  
 	.form_container {
-		 width: 100%; /* Full width for inputs on small screens */
+		 width: 100%;
 	 }
  
 	.input,.error_msg {
-		 width: 100%; /* Full width for inputs on small screens */
-		 margin: 5px 0; /* Maintain some margin */
+		 width: 100%; 
+		 margin: 5px 0; 
 	 }
  }
  
- /* General adjustments for aesthetics and functionality */
+ 
  .login_container {
 	 width: 100%;
 	 min-height: 100vh;
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
-	 background-color: transparent; /* Remove white background */
+	 background-color: transparent; 
  }
  
  .login_form_container {
