@@ -1,7 +1,9 @@
-Create a dotenv file in server
+## Create a dotenv file in server
 
-in dotenv file 
+## in dotenv file 
+
+##{
 DB="your data base link"
 JWTPRIVATEKEY = password
-SALT = number 
+SALT = number }
 
