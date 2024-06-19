@@ -3,7 +3,7 @@
 ## in dotenv file 
 
 ##{
-DB="your data base link"
-JWTPRIVATEKEY = password
+DB="your data base link" , 
+JWTPRIVATEKEY = password ,
 SALT = number }
 
